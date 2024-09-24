@@ -4,6 +4,8 @@ from utils.config import *
 
 initialize_page()
 
+st.markdown('#')
+
 col1, col2 = st.columns([5,1])
 if col2.button(label="Ir para o dashboard", use_container_width=True):
     switch_page("ADM_plotpage")
